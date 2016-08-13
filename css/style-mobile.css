@@ -194,7 +194,7 @@
 		border:2px solid #f21;
 		margin-bottom:0em;
 		margin-top:.9em;
-		width:70%;
+		width:80%;
 	}
 	#logo h1
 	{
@@ -211,8 +211,65 @@
 		color: #323338;
 	}
 	
-	
+/*********************************************************************************/
+/* nav                                                                          */
+/*********************************************************************************/	
 	#nav
+	{
+		max-width:500px;
+		display: block;
+	}
+
+	#nav ul
+	{
+		box-shadow:3px 3px 7px 7px #840000;
+		background:#ddd;
+		display: inline-block;
+		padding: 0em;
+		border-radius:2px;
+	}
+	#nav > ul > li
+	{
+		display: inline-block;
+	}
+	
+	#nav > ul > li:last-child
+	{
+		padding-right: 0;
+	}
+
+	#nav > ul > li > a,
+	#nav > ul > li > span
+	{
+		display: block;
+		padding: .3em .5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: normal;
+		font-size: .6em;
+		outline: 0;
+		color: #c66;
+	}
+
+	#nav > ul > li > a:hover
+	{
+		color: #f00;
+		font-weight:bolder;
+		text-decoration: underline;
+	}
+	#nav li.active a
+	{
+		font-weight:bolder;
+		color: #400;
+		text-decoration: underline;
+	}
+	#nav li.active a:hover
+	{
+		color:#e22;
+		text-decoration: none;
+	}
+	#nav > ul > li > ul
 	{
 		display: none;
 	}

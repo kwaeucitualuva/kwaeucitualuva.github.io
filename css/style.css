@@ -125,7 +125,7 @@
 	
 	/* Buttons */
 		
-		.button
+		.button,.button2
 		{
 			position: relative;
 			display: inline-block	;
@@ -144,11 +144,21 @@
 			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			cursor: pointer;
 		}
-
+		.button2
+		{
+				background: #911;
+				float:center;
+		}
 			.button:hover
 			{
 				background:#922;
 				color: #FFF !important;
+			}
+			.button2:hover
+			{
+				background:#f11;
+				color: #FFF !important;
+
 			}
 	
 
@@ -284,7 +294,11 @@
 
 		#nav ul
 		{
-			margin: 0;
+		
+			margin-right:2em;
+			margin-left:2em;
+			margin-bottom:0em;
+			margin-top:0em;
 		}
 	
 /*********************************************************************************/
@@ -361,15 +375,16 @@
 
 	}
 	
-	#copyright a :before
+	#copyright a:before
 	{
 		font-size:1.3em;
 		text-decoration: underline;
 		color:#085;
 	}
-	#copyright a :hover :after
+	#copyright a:hover
 	{
 		text-decoration:none;
+		font-weight:bolder;
 	}
 .myclass{
 		font-weight:normal;
@@ -378,12 +393,27 @@
 		line-height:110%;
 		margin-bottom:5px;
 }
-.Georgia01 {
+.Georgia01 ,.Georgia02,.Georgia03,.Georgia04{
 	font-size:1.1em;
 	font-family: "EGGIndulekhaUni";
-	float: right;
-	margin-bottom:5px;
+	margin-bottom:2px;
 	line-height: 110%;
+}
+.Georgia01 {
+	float: right;	
+}
+.Georgia02 {
+	margin-bottom:2px;
+	font-size:1.6em;
+	color:#45d;
+}
+.Georgia03{
+	color:#f00;
+	font-size:1.2em;
+}
+.Georgia04{
+	color:#386;
+	font-size:1.2em;
 }
 @font-face {font-family:EGGIndulekhaUni;
 		src:url('fonts/EGGIndulekha.eot');
