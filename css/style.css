@@ -142,12 +142,11 @@
 			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-			cursor: pointer;
 		}
 		.button2
 		{
 				background: #911;
-				float:center;
+				text-align:center;
 		}
 			.button:hover
 			{
@@ -157,7 +156,7 @@
 			.button2:hover
 			{
 				background:#f11;
-				color: #FFF !important;
+				color: #faa !important;
 
 			}
 	
