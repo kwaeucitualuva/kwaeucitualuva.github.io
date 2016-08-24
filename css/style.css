@@ -28,12 +28,11 @@
 		background-position:center;
 		margin:-100px 0 0 -100px;
 	}
-
 	
 	body
 	{
 		overflow:hidden;
-		background: #900;
+		background: #000;
 	}
 
 	body,input,textarea,select
@@ -385,6 +384,15 @@
 		background-color:#cdd;
 		/*background: #fff url(images/overlay.png) repeat;*/
 	}
+	#main2
+	{
+		margin:3px;
+		border:1px solid #111;	
+		padding-top:25px;
+		position: relative;
+		background-color:#fff;
+		/*background: #fff url(images/overlay.png) repeat;*/
+	}
 	.mainh
 	{
 		position: relative;
@@ -455,29 +463,38 @@
 		float:right;
 		line-height:110%;
 		margin-bottom:5px;
-}
-.Georgia01 ,.Georgia02,.Georgia03,.Georgia04{
-	font-size:1.1em;
-	font-family: "EGGIndulekhaUni";
-	margin-bottom:2px;
-	line-height: 110%;
-}
-.Georgia01 {
-	float: right;	
-}
-.Georgia02 {
-	margin-bottom:2px;
-	font-size:1.6em;
-	color:#45d;
-}
-.Georgia03{
-	color:#f00;
-	font-size:1.2em;
-}
-.Georgia04{
-	color:#386;
-	font-size:1.2em;
-}
+	}
+	.Georgia01 ,.Georgia02,.Georgia03,.Georgia04{
+		font-size:1.1em;
+		font-family: "EGGIndulekhaUni";
+		margin-bottom:2px;
+		line-height: 110%;
+	}
+	.Georgia01 {
+		float: right;	
+	}
+	.Georgia02 {
+		margin-bottom:2px;
+		font-size:1.6em;
+		color:#45d;
+	}
+	.Georgia03{
+		color:#f00;
+		font-size:1.2em;
+	}
+	.Georgia04{
+		color:#386;
+		font-size:1.2em;
+	}
+	.mission{
+		color:#558;
+		font-size:18px;
+		font-weight:bold;
+		text-decoration:underline;
+		text-align:center;
+		margin-right:10px;
+	}
+	
 @font-face {font-family:EGGIndulekhaUni;
 		src:url('fonts/EGGIndulekha.eot');
 		src:url('fonts/EGGIndulekhad41d.eot?#iefix') format('embedded-opentype'),
