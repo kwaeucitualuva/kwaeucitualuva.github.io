@@ -1,0 +1,91 @@
+body
+{
+	background-color:#f34;
+}
+#preloader
+{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff;
+	z-index:99;
+}
+#status 
+{
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	background-image:url(../images/wave.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px;
+}
+.Georgia01
+{
+	font-family: "EGGIndulekhaUni";
+	margin-bottom:2px;
+	line-height: 110%;
+}
+.bbig,.gbig
+{
+	text-align:center;
+	font-family: "EGGIndulekhaUni";
+	margin-bottom:2px;
+	line-height: 110%;
+}
+.bbig
+{
+	color:#3f51b5;
+}
+.gbig
+{
+	text-decoration:underline;
+	color:#4caf50;
+}
+@font-face {font-family:EGGIndulekhaUni;
+		src:url('fonts/EGGIndulekha.eot');
+		src:url('fonts/EGGIndulekhad41d.eot?#iefix') format('embedded-opentype'),
+			url('fonts/EGGIndulekha.ttf') format('truetype'), 
+			url('fonts/EGGIndulekha.woff') format('woff'),
+			url('fonts/EGGIndulekha.svg') format('svg');
+}
+.bluefont
+{
+	text-align:center;
+	color:#2467b2;
+	text-decoration:underline;
+}
+.gfont
+{
+	text-align:center;
+	color:#24b267;
+	vertical-align:middle;
+}
+.rfont
+{
+	text-align:center;
+	color:#c33;
+	vertical-align:middle;
+	text-decoration:underline;
+}
+.rfont2
+{
+	text-align:center;
+	color:#f34;
+	vertical-align:middle;
+	text-decoration:underline;
+}
+.brd img
+{
+	box-shadow:0 0 200px black;
+	border:4px solid #333;
+}
+.mycard
+{
+	margin:3%;
+	height:200px;
+}

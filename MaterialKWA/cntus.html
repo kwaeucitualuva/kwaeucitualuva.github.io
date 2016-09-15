@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KWAEU(CITU) Aluva</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="css/materialize.min.css">
+		<link rel="stylesheet" href="css/preloader.css" />
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>           
+		<script src="js/materialize.min.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		$(window).load(function()
+		{
+			// makes sure the whole site is loaded
+			$('#status').fadeOut(); // will first fade out the loading animation
+			$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow':'visible'});
+		})
+		//]]>
+		</script>
+	</head>
+	<body class="container">
+		<div id="preloader">
+			<div id="status">&nbsp;</div>
+		</div>
+		<nav>
+			<div class="nav-wrapper blue red-text">
+				<a href="#" class="brand-logo right">TutorialsPoint</a>
+				<ul id="nav-mobile" class="left hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="committee.html">Committee</a></li>
+					<li><a href="cntus.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+		<footer class="page-footer deep-orange lighten-3">
+			<div class="col s12 m8 l6" style="text-align:center">
+				Designed by:<a href="http://www.linkedin.com/in/anandhu-ajayakumar-b622bba4"><b>Anandhu</b></a>
+				<br />
+			</div>
+		</footer>
+	</body>
+</html>
